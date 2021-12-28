@@ -1,0 +1,7 @@
+pane	0	1	0	:	0	:/Users/john/project4	1	nvim	:/opt/homebrew/bin/fish
+pane	0	2	0	:-	0	:/Users/john	1	nvim	:/opt/homebrew/bin/fish
+pane	0	3	1	:*	0	:/Users/john/project4	1	fish	:/opt/homebrew/bin/fish
+window	0	1	:nvim	0	:	d5bd,116x69,0,0,0	:
+window	0	2	:nvim	0	:-	d5be,116x69,0,0,1	:
+window	0	3	:fish	1	:*	d5bf,116x69,0,0,2	:
+state	0	
