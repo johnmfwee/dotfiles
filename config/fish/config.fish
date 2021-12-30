@@ -6,8 +6,7 @@ end
 
 ## Alias
 alias g git
-alias nvim /Users/john/.local/bin/lvim
-alias vim /Users/john/.local/bin/lvim
+alias vim nvim
 alias ll "exa -l -g --icons"
 alias ls "exa --tree --level=2"
 alias python python3
@@ -41,7 +40,6 @@ set -g theme_title_display_path no
 set -g theme_title_display_user yes
 set -g theme_title_use_abbreviated_path no
 set -g theme_date_format "+%a %H:%M"
-set -g theme_date_timezone America/Los_Angeles
 set -g theme_avoid_ambiguous_glyphs yes
 set -g theme_powerline_fonts no
 set -g theme_nerd_fonts yes

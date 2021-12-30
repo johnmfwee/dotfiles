@@ -1,6 +1,6 @@
 [core]
   excludesfile = ~/.gitignore
-  editor = /Users/john/.local/bin/lvim
+  editor = nvim
 [push]
   default = simple
 [user]
