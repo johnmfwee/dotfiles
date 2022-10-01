@@ -1,8 +1,8 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-and not set -q TMUX
-  exec tmux
-end
+# if status is-interactive
+#     # Commands to run in interactive sessions can go here
+# and not set -q TMUX
+#   exec tmux
+# end
 
 set -x GOPATH /Users/john/go/
 set -x PATH $PATH $GOPATH/bin
@@ -10,6 +10,7 @@ set -x PATH $PATH $GOPATH/bin
 ## Alias
 alias g git
 alias vim nvim
+alias lvim /Users/john/.local/bin/lvim
 alias ll "exa -l -g --icons"
 alias ls "exa --tree --level=2"
 alias python python3
